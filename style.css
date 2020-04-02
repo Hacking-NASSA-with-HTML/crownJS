@@ -1,0 +1,59 @@
+body,
+div,
+p,
+span {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    position: relative;
+    /* background: url(./2bg.jpg); */
+    background-color: #f7df1e;
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+    position: fixed;
+    height: 92vh;
+    width: 100vw;
+    font-family: 'Lato', sans-serif;
+}
+
+.crown {
+    background: url(./mstile-144x144.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 7%;
+    left: 44.5%;
+    height: 144px;
+    width: 144px;
+    transform: rotate(7deg);
+    z-index: -1;
+}
+
+.js {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    font-size: 200px;
+    font-weight: 900;
+    text-transform: uppercase;
+    /* margin: 22vh auto; */
+    margin-top: 22vh;
+    z-index: 20;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+    font-weight: 900;
+    width: 70%;
+    height: 50px;
+    margin: 5vh auto;
+}
